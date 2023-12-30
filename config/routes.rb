@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   resources :boards
-  root 'boards#index'
+  root 'static_pages#top'
 end
