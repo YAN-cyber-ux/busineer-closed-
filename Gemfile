@@ -35,7 +35,14 @@ gem "redis", ">= 4.0.1"
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
-gem "sassc"
+gem "sassc-rails"
+
+gem 'bootstrap','~>5.3.0.alpha3'
+
+gem 'jquery-rails'
+
+gem 'font-awesome-sass', '~> 5.11.2'
+
 
 group :production do
   gem 'pg'
