@@ -43,6 +43,9 @@ gem 'jquery-rails'
 
 gem 'font-awesome-sass', '~> 5.11.2'
 
+gem 'sorcery', '0.16.5'
+
+gem 'pry-byebug'
 
 group :production do
   gem 'pg'
